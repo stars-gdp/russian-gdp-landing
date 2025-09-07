@@ -43,4 +43,4 @@ jobs:
         run: ssh "$SSH_USER@$SSH_HOST" "mkdir -p '$APP_DIR'"
 
       - name: Rsync dist (build output)
-        run: rsync -avz --delete ./dist/ "$SSH_USER@$SSH_HOST:$APP_DIR/"
+        run: rsync -avz --delete --filter='protect .well-known/' ./dist/ "$SSH_USER@$SSH_HOST:$APP_DIR/"
