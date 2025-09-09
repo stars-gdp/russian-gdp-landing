@@ -97,22 +97,24 @@ export default function App() {
         {selected && (
           <div>
             <h4>{selected.tagline}</h4>
-            <p>{selected.expandedDescription}</p>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {selected.expandedDescription}
+            </p>
             {!!selected.tags?.length && (
               <p>Теги: {selected.tags.map((t) => `#${t}`).join(" ")}</p>
             )}
-            {selected.link && (
-              <p>
-                <a
-                  className="btn btn-ghost"
-                  href={selected.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Перейти на страницу продукта
-                </a>
-              </p>
-            )}
+            {/*{selected.link && (*/}
+            {/*  <p>*/}
+            {/*    <a*/}
+            {/*      className="btn btn-ghost"*/}
+            {/*      href={selected.link}*/}
+            {/*      target="_blank"*/}
+            {/*      rel="noopener noreferrer"*/}
+            {/*    >*/}
+            {/*      Перейти на страницу продукта*/}
+            {/*    </a>*/}
+            {/*  </p>*/}
+            {/*)}*/}
           </div>
         )}
       </Modal>

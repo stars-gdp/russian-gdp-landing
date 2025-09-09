@@ -18,7 +18,10 @@ export const products: Product[] = [
     description:
       "Комплекс с ключевыми компонентами для мужского рациона: бета-каротин, ликопин, селен и цинк.",
     expandedDescription:
-      "- Бета-каротин\n- Ликопин\n- Селен (содиум селенит)\n- Цинк (хелат аминокислот)",
+      "- Бета-каротин\n" +
+      "- Ликопин\n" +
+      "- Селен (содиум селенит)\n" +
+      "- Цинк (хелат аминокислот)",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/essential-man-thumb.jpg",
     tags: ["ежедневная поддержка"],
@@ -31,7 +34,7 @@ export const products: Product[] = [
     description:
       "Базовый комплекс, созданный для повседневного ритма и баланса.",
     expandedDescription:
-      "- Фолиевая кислота\n- Железо\n- Изофлавоны\n- Омега-3",
+      "- Фолиевая кислота\n" + "- Железо\n" + "- Изофлавоны\n" + "- Омега-3",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/essential-woman-thumb.jpg",
     tags: ["ежедневная поддержка"],
@@ -44,7 +47,10 @@ export const products: Product[] = [
     description:
       "Формула с зелёной спирулиной, гуараной, экстрактом зелёного чая и витамином B2.",
     expandedDescription:
-      "- Зелёная спирулина\n- Порошок гуараны\n- Зелёный чай\n- Витамин B2 (рибофлавин)",
+      "- Зелёная спирулина\n" +
+      "- Порошок гуараны\n" +
+      "- Зелёный чай\n" +
+      "- Витамин B2 (рибофлавин)",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/energy-extreme-thumb.jpg",
     tags: ["энергия", "фокус"],
@@ -57,7 +63,7 @@ export const products: Product[] = [
     description:
       "Смесь с нони, экстрактом асаи и витаминами — для разнообразия рациона.",
     expandedDescription:
-      "- Экстракт асаи\n- Цитрат магния\n- Нони\n- Витамин D\n- Клюквенный экстракт\n- Семена винограда",
+      "- Экстракт асаи\n" + "- Цитрат магния\n" + "- Нони\n" + "- Витамин D",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/noni-x-thumb-01.jpg",
     tags: ["экстракты фруктов"],
@@ -70,7 +76,10 @@ export const products: Product[] = [
     description:
       "Вкусный ванильный шейк с источниками белка и пищевыми волокнами.",
     expandedDescription:
-      "- Белок яичного белка\n- Рыбный коллаген\n- Инулин (90 %)\n- Изолированный соевый протеин",
+      "- Порошок семян чиа\n" +
+      "- Пиколинат хрома\n" +
+      "- Гарциния камбоджийская\n" +
+      "- Порошок MCT (триглицериды средней цепи)",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/fusion-vanilla-thumb-03.jpg",
     tags: ["протеин", "баланс"],
@@ -82,7 +91,11 @@ export const products: Product[] = [
     tagline: "Баланс и поддержка",
     description:
       "Формула повседневной поддержки. Краткое описание без медицинских заявлений.",
-    expandedDescription: "",
+    expandedDescription:
+      "- Экстракт ашваганды\n" +
+      "- Пиколинат хрома\n" +
+      "- Гарциния камбоджийская\n" +
+      "- Индийская крапива\n",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/b-x-thumb-01.jpg",
     tags: ["баланс"],
@@ -93,7 +106,11 @@ export const products: Product[] = [
     name: "B-YNG",
     tagline: "Для активного дня",
     description: "Лёгкое повседневное решение в поддержку бодрости.",
-    expandedDescription: "",
+    expandedDescription:
+      "- Гидролизованный коллаген Peptan® B (бычий)\n" +
+      "- Семена винограда\n" +
+      "- Гиалуронат натрия\n" +
+      "- Витамин C\n",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/b-yng-thumb-01.jpg",
     tags: ["активность"],
@@ -104,7 +121,11 @@ export const products: Product[] = [
     name: "GDAY",
     tagline: "Старт дня",
     description: "Утренний ритуал — мягкий и комфортный старт.",
-    expandedDescription: "",
+    expandedDescription:
+      "- Экстракт ашваганды\n" +
+      "- Экстракт бакопы\n" +
+      "- Гинкго билоба\n" +
+      "- Женьшень\n",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/gday-thumb-01.jpg",
     tags: ["утро"],
@@ -115,7 +136,11 @@ export const products: Product[] = [
     name: "GNIGHT",
     tagline: "Спокойный вечер",
     description: "Вечерний ритуал — готовность к отдыху.",
-    expandedDescription: "",
+    expandedDescription:
+      "- Экстракт ромашки\n" +
+      "- Экстракт мелиссы\n" +
+      "- Экстракт пассифлоры\n" +
+      "- Экстракт валерианы\n",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/gnight-thumb-01.jpg",
     tags: ["вечер"],
@@ -126,7 +151,8 @@ export const products: Product[] = [
     name: "X-Grn",
     tagline: "Смесь зелёных ингредиентов",
     description: "Зелёная формула для разнообразия рациона.",
-    expandedDescription: "",
+    expandedDescription:
+      "- Баобаб\n" + "- Каму-каму\n" + "- Хлорелла\n" + "- Спирулина\n",
     imageUrl:
       "https://admin.bhipone.com/assets/uploads/products/x-grn-thumb-01.jpg",
     tags: ["greens"],
